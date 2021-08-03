@@ -123,7 +123,126 @@ h1{
     font-size: 1.5rem;
 }
 
-/* .sec img{ */
-    /* background: #fff; */
-    /* padding: 12px 28px 12px 20px; */
-/* } */
+.sec img{
+    width: 32px;
+    height: 32px;
+}
+
+.sec{
+    background: #fff;
+    display: flex;
+    border: 1px solid rgba(2, 43, 105, .06);
+    padding: 12px 28px 12px 20px;
+    border-radius: 12px;
+    width: max-content;
+    line-height: 1.15;
+    justify-content: center;
+    margin-left: 25px;
+}
+
+.sec-txt-1{
+    font-size: 1.45rem;
+    font-weight: 700;
+    margin-bottom: 5px;
+    letter-spacing: -.6px;
+    color: #022b69;
+}
+
+.sec-txt-2{
+    font-size: 1rem;
+    color: rgba(2,43,105,.6);
+    display: block;
+}
+
+.features{
+    display: flex;
+    padding: 25px;
+    margin-top: 100px;
+}
+
+.features p{
+    color: #022b69;
+    margin-top: 0;
+    max-width: 80%;
+    font-size: 1.8rem;
+    font-weight: 400;
+    top: 30px;
+    line-height: 1.7;
+}
+
+.card1{
+    height: 700px;
+    margin-bottom: 80px;
+    padding: 48px;
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    background: #F4F6FF;
+    border-radius: 20px;
+    margin-top: 100px;
+    overflow-y: hidden;
+}
+
+.card1 h6{
+    font-size: 2.1rem;
+    color: rgba(2,43,105,.6)!important;
+    display: block;
+    font-weight: 600;
+    line-height: 1.25;
+}
+.card1 h4{
+    font-size: 3.45rem;
+    font-weight: 700;
+    color: #022b69;
+    display: block;
+    margin-top: 10px;
+}
+.card1 p{
+    line-height: 1.7;
+    font-size: 1.8rem;
+    font-weight: 400;
+    color: rgba(2,43,105,.6);
+    margin: 15px 0;
+}
+
+.card1 a svg{
+    height: 12px;
+    width: 12px;
+    fill: #0066f5;
+    stroke: #0066f5;
+    margin-left: 2px;
+}
+
+.card1 .button{
+    background: none;
+    color: #0066f5;
+    font-size: 12.5px;
+    font-weight: 600;
+    line-height: 36px;
+    border-radius: 6px;
+    display: inline-block;
+    border: none;
+    position: relative;
+    padding: 0;
+}
+
+.card1-img{
+    position: absolute;
+    bottom: -240px;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 70px;
+}
+
+.card1-img img{
+    border-style: none;
+    max-width: 320px;
+    height: auto;
+    overflow-y: hidden;
+    /* bottom: -240px; */
+}
